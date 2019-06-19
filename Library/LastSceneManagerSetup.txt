@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Technique List.unity
+  isLoaded: 1
+  isActive: 1

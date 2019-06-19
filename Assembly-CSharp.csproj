@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{93605892-4CE5-79F1-8D12-2A65FEDC6F8D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Charts\ChartElement.cs" />
+     <Compile Include="Assets\Charts\Charts.cs" />
+     <Compile Include="Assets\Charts\Line Scripts\DataContainer.cs" />
+     <Compile Include="Assets\Charts\Line Scripts\Math.cs" />
+     <Compile Include="Assets\Charts\Line Scripts\UIMeshLine.cs" />
+     <Compile Include="Assets\JSON\JSONObject.cs" />
+     <Compile Include="Assets\JSON\JSONTemplates.cs" />
+     <Compile Include="Assets\JSON\VectorTemplates.cs" />
+     <Compile Include="Assets\Scripts\AudioTextName.cs" />
+     <Compile Include="Assets\Scripts\ChangeAudioClip.cs" />
+     <Compile Include="Assets\Scripts\Database\Database.cs" />
+     <Compile Include="Assets\Scripts\Database\DatabaseClass.cs" />
+     <Compile Include="Assets\Scripts\Element List\CreateElementList.cs" />
+     <Compile Include="Assets\Scripts\Element List\GoToTechnique.cs" />
+     <Compile Include="Assets\Scripts\ElementAudioSelector.cs" />
+     <Compile Include="Assets\Scripts\EnableHelp.cs" />
+     <Compile Include="Assets\Scripts\EnableSkip.cs" />
+     <Compile Include="Assets\Scripts\FakeIntro.cs" />
+     <Compile Include="Assets\Scripts\General Use\BackButton.cs" />
+     <Compile Include="Assets\Scripts\General Use\CheckUnlock.cs" />
+     <Compile Include="Assets\Scripts\General Use\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\General Use\FirstScene.cs" />
+     <Compile Include="Assets\Scripts\General Use\GoAwayNewContent.cs" />
+     <Compile Include="Assets\Scripts\General Use\GoToWebSite.cs" />
+     <Compile Include="Assets\Scripts\General Use\GotoSummary.cs" />
+     <Compile Include="Assets\Scripts\General Use\Intro.cs" />
+     <Compile Include="Assets\Scripts\General Use\IsLocked.cs" />
+     <Compile Include="Assets\Scripts\General Use\IsNew.cs" />
+     <Compile Include="Assets\Scripts\General Use\LoadLevelString.cs" />
+     <Compile Include="Assets\Scripts\General Use\LoadingScreen.cs" />
+     <Compile Include="Assets\Scripts\General Use\MeasureNotification.cs" />
+     <Compile Include="Assets\Scripts\General Use\NewContent.cs" />
+     <Compile Include="Assets\Scripts\General Use\NewContentText.cs" />
+     <Compile Include="Assets\Scripts\General Use\PlayerPrefsDebug.cs" />
+     <Compile Include="Assets\Scripts\General Use\PointsTechniques.cs" />
+     <Compile Include="Assets\Scripts\General Use\PointsUpdate.cs" />
+     <Compile Include="Assets\Scripts\General Use\PointstoUnlockTech.cs" />
+     <Compile Include="Assets\Scripts\General Use\Progress.cs" />
+     <Compile Include="Assets\Scripts\General Use\ProgressChoose.cs" />
+     <Compile Include="Assets\Scripts\General Use\RedoBalance.cs" />
+     <Compile Include="Assets\Scripts\General Use\ResetPlayerPrefs.cs" />
+     <Compile Include="Assets\Scripts\General Use\YouEarnedPointsTXT.cs" />
+     <Compile Include="Assets\Scripts\General Use\playaudioToggle.cs" />
+     <Compile Include="Assets\Scripts\GoToProgress.cs" />
+     <Compile Include="Assets\Scripts\Help.cs" />
+     <Compile Include="Assets\Scripts\HideInPro.cs" />
+     <Compile Include="Assets\Scripts\HideSpheres.cs" />
+     <Compile Include="Assets\Scripts\InstantiateBackground.cs" />
+     <Compile Include="Assets\Scripts\LiteProControl.cs" />
+     <Compile Include="Assets\Scripts\LiteProTxt1.cs" />
+     <Compile Include="Assets\Scripts\ProLiteTxt.cs" />
+     <Compile Include="Assets\Scripts\Quiz\Balance.cs" />
+     <Compile Include="Assets\Scripts\Quiz\QuizButton.cs" />
+     <Compile Include="Assets\Scripts\Quiz\RandomQuestion.cs" />
+     <Compile Include="Assets\Scripts\Quiz\Summary.cs" />
+     <Compile Include="Assets\Scripts\Quiz\ToggleCount.cs" />
+     <Compile Include="Assets\Scripts\Quiz\WeeklyPoints.cs" />
+     <Compile Include="Assets\Scripts\RateMood.cs" />
+     <Compile Include="Assets\Scripts\RunInBackground.cs" />
+     <Compile Include="Assets\Scripts\Tech Screen\ButtonAgent.cs" />
+     <Compile Include="Assets\Scripts\Tech Screen\FadeIn.cs" />
+     <Compile Include="Assets\Scripts\Tech Screen\ListGenerator.cs" />
+     <Compile Include="Assets\Scripts\Tech Screen\ListSelector.cs" />
+     <Compile Include="Assets\Scripts\Tech Screen\MixLevels.cs" />
+     <Compile Include="Assets\Scripts\Tech Screen\PlaySingleMusic.cs" />
+     <Compile Include="Assets\Scripts\Tech Screen\PlayTechAudio.cs" />
+     <Compile Include="Assets\Scripts\Tech Screen\TechniqueScreens.cs" />
+     <Compile Include="Assets\Scripts\Tech Screen\waitForDone.cs" />
+     <None Include="Assets\JSON\readme.txt" />
+     <None Include="Assets\Images\Materials\Sprites-PixelSnap-AlphaBlended.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

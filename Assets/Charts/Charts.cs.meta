@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 38c76ae03cc814523b12751c6fcfd63b
+timeCreated: 1485028403
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - elementsHolder: {fileID: 114000013214011514, guid: a62e014037770452084bb5efb15245ea,
+      type: 2}
+  - barStack: {fileID: 114000013684882866, guid: 880fde327b26648359e4ff380566d855,
+      type: 2}
+  - marker: {fileID: 114000011061434208, guid: dff53fcb44880492aa02c3bbaf71e806, type: 2}
+  - line: {fileID: 114774858172589780, guid: 6b3721e653ce1d04498bc2f0b0c5f774, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
